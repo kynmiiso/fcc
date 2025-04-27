@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1 id="title">Tell Me About Yourself</h1>
+  <p id="description">This survey aims to assess what things you like the most.</p>
+  <p>Please fill the required data below!</p>
+  <form id="survey-form">
+    <fieldset>
+    <label for="name" id="name-label" class="label">Name: 
+    <input id="name" type="name" class="input" required placeholder="Enter your name here"></input>
+    </label>
+
+    <label for="email" id="email-label" class="label">Email: 
+    <input id="email" type="email" class="input" required placeholder="Enter your email here"></input>
+    </label>
+
+    <label for="number" id="number-label" class="label">Age: 
+    <input id="number" type="number" class="input" min="1" max="120" required placeholder="Enter your age here"></input>
+    </label>
+    </fieldset>
+
+    <fieldset>
+      <label for="dropdown">What's your favorite animal?
+      <select id="dropdown">
+        <option>Select</option>
+        <option>sacabambaspis, especially sake (BLASPHEMY!)</option>
+        <option>suna fox</option>
+        <option>cait mongoose</option>
+        <option>ducks cuz they're yummy (side eye)</option>
+      </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <label class="label" for="radio">Pineapple on pizza?
+      </label>
+      <div>
+        <input type="radio" class="radio" value="yes" name="radio-buttons">Yes</input>
+      </div>
+      <div>
+        <input type="radio" class="radio" value="no" name="radio-buttons">No</input>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <label for="checkbox">What games do you like of these options? (Tick all you like!)</label>
+      <div>
+        <input type="checkbox" value="bg3">Baldur's Gate 3
+        </input>
+      </div>
+      <div>
+        <input type="checkbox" value="stardew">Stardew Valley
+        </input>
+      </div>
+      <div>
+        <input type="checkbox" value="hades">Hades
+        </input>
+      </div>
+      <div>
+        <input type="checkbox" value="persona">Persona
+        </input>
+      </div>
+      <div>
+        <input type="checkbox" value="omori">Omori
+        </input>
+      </div>
+      <div>
+        <input type="checkbox" value="turnabout">Ace Attorney
+        </input>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <div>
+      <label for="comment">Any other things you want to tell me about yourself?
+      </label>
+      </div>
+      <textarea name="comment" placeholder="Traumadump here">
+      </textarea>
+    </fieldset>
+
+    <fieldset>
+      <button id="submit" type="submit">Submit</button>
+    </fieldset>
+
+  </form>
+</body>
+</html>
