@@ -36,50 +36,55 @@
     </fieldset>
 
     <fieldset>
-      <label class="label" for="radio">Pineapple on pizza?
+      <div class="radio-group">
+      <label>Pineapple on pizza?
       </label>
-      <div>
-        <input type="radio" class="radio" value="yes" name="radio-buttons">Yes</input>
-      </div>
-      <div>
-        <input type="radio" class="radio" value="no" name="radio-buttons">No</input>
-      </div>
-    </fieldset>
-
-    <fieldset>
-      <label for="checkbox">What games do you like of these options? (Tick all you like!)</label>
-      <div>
-        <input type="checkbox" value="bg3">Baldur's Gate 3
-        </input>
-      </div>
-      <div>
-        <input type="checkbox" value="stardew">Stardew Valley
-        </input>
-      </div>
-      <div>
-        <input type="checkbox" value="hades">Hades
-        </input>
-      </div>
-      <div>
-        <input type="checkbox" value="persona">Persona
-        </input>
-      </div>
-      <div>
-        <input type="checkbox" value="omori">Omori
-        </input>
-      </div>
-      <div>
-        <input type="checkbox" value="turnabout">Ace Attorney
-        </input>
+        <label for="yes">
+        <input type="radio" id="yes" value="yes" name="radio-buttons"  class="inline"></input>
+        Yes</label>
+        <label for="no">
+        <input type="radio" id="no" value="no" name="radio-buttons" class="inline"></input>
+        No</label>
       </div>
     </fieldset>
 
     <fieldset>
-      <div>
+      <label>What games do you like of these options? (Tick all you like!)</label>
+      <div class="inline">
+        <input type="checkbox" id="bg3" class="inline"></input>
+        <label for="bg3">Baldur's Gate 3
+        </label>
+      </div>
+      <div class="inline">
+        <input type="checkbox" id="stardew" class="inline"></input>
+        <label for="stardew">Stardew Valley
+        </label>
+      </div>
+      <div class="inline">
+        <input type="checkbox" id="hades" class="inline"></input>
+        <label for="hades">Hades
+        </label>
+      </div>
+      <div class="inline">
+        <input type="checkbox" id="persona" class="inline"></input>
+        <label for="persona">Persona
+        </label>
+      </div>
+      <div class="inline">
+        <input type="checkbox" id="omori" class="inline"></input>
+        <label for="omori">Omori
+        </label>
+      </div>
+      <div class="inline">
+        <input type="checkbox" id="turnabout" class="inline"></input>
+        <label for="turnabout">Ace Attorney</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
       <label for="comment">Any other things you want to tell me about yourself?
       </label>
-      </div>
-      <textarea name="comment" placeholder="Traumadump here">
+      <textarea id="comment" placeholder="Traumadump here">
       </textarea>
     </fieldset>
 
