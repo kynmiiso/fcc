@@ -1,0 +1,110 @@
+.nav-li {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc; 
+  border-top: 1px solid #ccc; 
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav-list {
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+.nav-link {
+  color: #464646;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 130px;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+span {
+  color: #e75480;
+}
+
+.project-tile {
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.project-link {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  background-color: #e75480;
+  padding: 15px;
+  font-family: Helvetica;
+}
+
+#chat {
+  font-size: 50px;
+}
+
+.images {
+  height: 30vh;
+  margin-top: 15px;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  margin: auto;
+  width: 65vh;
+}
+
+.icons {
+  height: 6vh;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.social-links {
+  color: #e75480;
+  font-size: 20px;
+  font-family: Verdana;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.social-links:hover {
+  transform: translateY(8px);
+}
+
+@media (max-width: 28.75em) {
+  h1, #chat {
+    font-size: 20px;
+  }
+}
